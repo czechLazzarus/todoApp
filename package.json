@@ -1,0 +1,35 @@
+{
+    "name": "redux-course",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+        "babel-core": "^6.26.0",
+        "babel-preset-latest": "^6.24.1",
+        "babel-preset-stage-3": "^6.24.1",
+        "chai": "^4.1.1",
+        "chai-arrays": "^1.1.0",
+        "deep-freeze": "0.0.1",
+        "mocha": "^3.5.3",
+        "react-scripts": "1.0.11"
+    },
+    "dependencies": {
+        "react": "^15.6.1",
+        "react-dom": "^15.6.1",
+        "react-redux": "^5.0.6",
+        "react-tools": "^0.13.3",
+        "redux": "^3.7.2",
+        "superagent": "^3.6.0"
+    },
+    "babel": {
+        "presets": [
+            "stage-3",
+            "latest"
+        ]
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "mocha --compilers js:babel-core/register ./test/*.js",
+        "eject": "react-scripts eject"
+    }
+}
